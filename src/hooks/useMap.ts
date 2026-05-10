@@ -47,7 +47,7 @@ export function useMap(target: string) {
     }),
     'tianditu-vector': new TileLayer({
       source: new XYZ({
-        url: 'http://t0.tianditu.gov.cn/vec_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=vec&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&tk=b26223e77e33214399aadac8211e850f',
+        url: 'https://t0.tianditu.gov.cn/vec_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=vec&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&tk=b26223e77e33214399aadac8211e850f',
       }),
       visible: false,
       zIndex: 1,
@@ -59,7 +59,7 @@ export function useMap(target: string) {
     }),
     'tianditu-satellite': new TileLayer({
       source: new XYZ({
-        url: 'http://t0.tianditu.gov.cn/img_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=img&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&tk=b26223e77e33214399aadac8211e850f',
+        url: 'https://t0.tianditu.gov.cn/img_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=img&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&tk=b26223e77e33214399aadac8211e850f',
       }),
       visible: false,
       zIndex: 1,

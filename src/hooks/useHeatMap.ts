@@ -9,7 +9,7 @@ let heatMapLayer: Heatmap | null = null
 export function useHeatMap() {
   const loadHeatMapData = async () => {
     try {
-      const response = await fetch('/data/成都地铁.geojson')
+      const response = await fetch(`${import.meta.env.BASE_URL}data/成都地铁.geojson`)
       const geojsonData = await response.json()
 
       const features = new GeoJSON().readFeatures(geojsonData, {
